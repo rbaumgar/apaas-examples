@@ -1,0 +1,6 @@
+{
+  "runtime": {
+      "majorVersion": "8"
+  },
+  "command": "sh ./apache-tomcat/bin/catalina.sh run"
+}

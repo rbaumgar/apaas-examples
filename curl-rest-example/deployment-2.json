@@ -1,0 +1,7 @@
+{
+  "memory": "2G",
+  "environment":
+    {
+      "GREETING" : "Ni Hao!"
+    }
+}

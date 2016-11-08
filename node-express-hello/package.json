@@ -1,0 +1,17 @@
+{
+  "name": "node-helloworld",
+  "version": "0.1.0",
+  "description": "Node Hello World using Express",
+  "main": "web.js",
+  "scripts": {
+    "prepublish": "zip -r node-express-helloworld-dist.zip manifest.json *.js node_modules"
+  },
+  "author": "shaun.smith@oracle.com",
+  "dependencies": {
+    "express": "~4.5.1",
+    "logfmt": "~1.1.2"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}

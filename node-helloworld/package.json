@@ -1,0 +1,14 @@
+{
+  "name": "node-helloworld",
+  "version": "0.0.0",
+  "description": "none",
+  "main": "server.js",
+  "scripts": {
+    "prepublish": "zip -r node-helloworld-dist.zip package.json manifest.json *.js"
+  },
+  "repository": "",
+  "author": "shaun.smith@oracle.com",
+  "engines": {
+    "node": "0.10.x"
+  }
+}

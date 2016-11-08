@@ -1,0 +1,9 @@
+{
+  "runtime": {
+      "majorVersion": "8"
+  },
+  "command": "java -jar corporatedirectory-1.0-SNAPSHOT-jar-with-dependencies.jar",
+  "release": {
+    "version": "1.2.3"
+  }
+}

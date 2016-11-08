@@ -1,0 +1,6 @@
+  {
+    "runtime": {
+        "majorVersion": "0.10"
+    },
+    "command": "node web.js"
+  }

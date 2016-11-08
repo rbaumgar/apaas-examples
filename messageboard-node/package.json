@@ -1,0 +1,16 @@
+{
+  "name": "messageboard-node",
+  "version": "0.0.1",
+  "description": "Sample Node.js Application using Express",
+  "main": "server.js",
+  "scripts": {"start": "node server.js",
+    "prepublish": "zip -r messageboard-node-dist.zip manifest.json *.js *.html node_modules"
+  },
+  "dependencies": {
+    "express": "~4.5.1",
+    "body-parser":"~1.14.1"
+  },
+  "engines": {
+    "node": "0.12.x"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "node-helloworld",
+  "version": "0.0.0",
+  "description": "none",
+  "main": "web.js",
+  "scripts": {
+    "prepublish": "zip -r node-helloworld-dist.zip manifest.json *.js node_modules"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "express": "~4.5.1",
+    "logfmt": "~1.1.2"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
