@@ -2,9 +2,11 @@
   "name": "node-helloworld",
   "version": "0.0.0",
   "description": "none",
+  "repository": "https://github.com/rbaumgar/apaas-examples",
   "main": "server.js",
   "repository": "",
   "author": "shaun.smith@oracle.com",
+  "license": "ASLv2",
   "engines": {
     "node": "0.10.x"
   }
